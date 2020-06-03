@@ -41,7 +41,7 @@ export default function AdminDashboard() {
     };
     //delete product
     const deleteProduct = (id) => {
-        console.log("@#$%^&", id);
+        // console.log("@#$%^&", id);
         dispatch({ type: DELETE_PRODUCT, payload: id })
     }
     //update product details
